@@ -8,5 +8,7 @@ function alterarShift(){
         document.getElementById("idNome").value = document.getElementById("idNome").value.toUpperCase();
     }else if(chkMin.checked){
         document.getElementById("idNome").value = document.getElementById("idNome").value.toLowerCase();
+    }else{
+        alert("Selecione uma das opções");
     }
 }
